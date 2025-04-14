@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
    
     // Fetch series details using series ID from URL parameter
     const seriesId = getParameterByName('id');
-    const apiKey = 'TMDB_API_KEY_HERE';
+    const apiKey = '10ec3400a05a7ca2b1a2e57073ce904a';
     const seriesDetailsUrl = `https://api.themoviedb.org/3/tv/${seriesId}?api_key=${apiKey}`;
     const castUrl = `https://api.themoviedb.org/3/tv/${seriesId}/credits?api_key=${apiKey}`;
     const videosUrl = `https://api.themoviedb.org/3/tv/${seriesId}/videos?api_key=${apiKey}`;
