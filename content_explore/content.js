@@ -1,6 +1,6 @@
 document.cookie = "name=value; SameSite=None; Secure";
 // Define your TMDB API key
-const apiKey = 'TMDB_API_KEY_HERE';
+const apiKey = '10ec3400a05a7ca2b1a2e57073ce904a';
 //let currentPage = 1; // Example: current page is 7
 let currentPage = parseInt(localStorage.getItem('currentPage')) || 1;
 const totalPages = 20; // Example: total number of pages
