@@ -2,7 +2,7 @@
     
     document.addEventListener('DOMContentLoaded', function() {
 
-        const apiKey = 'TMDB_API_KEY';
+        const apiKey = '10ec3400a05a7ca2b1a2e57073ce904a';
         const moviesContainer = document.getElementById('moviesContainer');
         const likedMovies = JSON.parse(localStorage.getItem('likedMovies')) || [];
     
